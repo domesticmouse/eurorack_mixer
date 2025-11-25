@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fbd7df8d-6163-4a0b-a1e8-4fc30445a118")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 43.18 160.02)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3104daed-a7b8-44ea-ae2c-bc8126f96068")
+		(property "Sheetname" "Eurorack Power"
+			(at 43.18 159.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eurorack_power.kicad_sch"
+			(at 43.18 186.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
