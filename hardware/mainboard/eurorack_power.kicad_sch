@@ -1470,107 +1470,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 83.82 63.5)
@@ -1583,12 +1482,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f370f62-1b20-4a7f-9b8f-9399761d55d4")
-	)
-	(junction
-		(at 132.08 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d3b94d7-771a-4715-b002-67fcb20ccf87")
 	)
 	(junction
 		(at 116.84 93.98)
@@ -1607,12 +1500,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58842a47-feac-49d4-8507-1a9b6f3a8c4b")
-	)
-	(junction
-		(at 132.08 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62e04211-81db-4c95-a454-764c1f154a69")
 	)
 	(junction
 		(at 81.28 78.74)
@@ -1792,16 +1679,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 93.98) (xy 132.08 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "530d008d-2144-4c10-bcb7-6e7096244cd8")
-	)
-	(wire
-		(pts
 			(xy 81.28 83.82) (xy 81.28 93.98)
 		)
 		(stroke
@@ -1812,7 +1689,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 78.74) (xy 142.24 78.74)
+			(xy 116.84 78.74) (xy 132.08 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1832,7 +1709,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 93.98) (xy 142.24 93.98)
+			(xy 116.84 93.98) (xy 132.08 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2042,16 +1919,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 63.5) (xy 142.24 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec4233ad-103d-4cbf-953b-a1993c3bf742")
-	)
-	(wire
-		(pts
 			(xy 101.6 93.98) (xy 116.84 93.98)
 		)
 		(stroke
@@ -2098,7 +1965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 185.42 71.12 0)
 			(effects
 				(font
@@ -2132,6 +1999,12 @@
 			(uuid "76a72e18-69da-4eda-abda-297a23fa5102")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "R1")
@@ -2166,7 +2039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 91.44 93.98 90)
 			(effects
 				(font
@@ -2200,6 +2073,12 @@
 			(uuid "aa6e9859-dac1-4c7c-a159-f5c4d7f9decd")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "D2")
@@ -2236,7 +2115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 185.42 86.36 0)
 			(effects
 				(font
@@ -2270,6 +2149,12 @@
 			(uuid "76a72e18-69da-4eda-abda-297a23fa5103")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "R2")
@@ -2306,7 +2191,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 185.42 93.98 90)
 			(effects
 				(font
@@ -2349,6 +2234,12 @@
 			(uuid "64103013-3631-41ba-8a72-ffe5f413dfda")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "D4")
@@ -2385,7 +2276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
 			(at 101.6 71.12 0)
 			(effects
 				(font
@@ -2419,75 +2310,15 @@
 			(uuid "95e19b0a-4b55-46b0-8d54-72b0c68ad6fc")
 		)
 		(instances
-			(project ""
-				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
-					(reference "C1")
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "C?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 132.08 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66f8c959-c8a4-46dd-8bf8-51e1655366dc")
-		(property "Reference" "#FLG03"
-			(at 132.08 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 132.08 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19416d63-5662-4492-8b3f-88b0febe3f31")
-		)
-		(instances
-			(project "mainboard"
+			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
-					(reference "#FLG03")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2521,7 +2352,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 185.42 63.5 90)
 			(effects
 				(font
@@ -2564,6 +2395,12 @@
 			(uuid "64103013-3631-41ba-8a72-ffe5f413dfdb")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "D3")
@@ -2600,7 +2437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 116.84 71.12 0)
 			(effects
 				(font
@@ -2634,6 +2471,12 @@
 			(uuid "7ab189e9-03a3-4bc1-b265-fba5f33d2a6d")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "C3")
@@ -2670,7 +2513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
 			(at 101.6 86.36 0)
 			(effects
 				(font
@@ -2704,6 +2547,12 @@
 			(uuid "95e19b0a-4b55-46b0-8d54-72b0c68ad6fd")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "C2")
@@ -2771,6 +2620,12 @@
 			(uuid "203d427f-c6d8-4075-951b-83702a548d41")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "#PWR05")
@@ -2837,6 +2692,12 @@
 			(uuid "16c7edb6-308b-4dba-ab0f-fafd9f939b19")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "#PWR08")
@@ -2846,74 +2707,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 132.08 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0204fc8-91bb-45be-8140-ca03850d4c84")
-		(property "Reference" "#FLG02"
-			(at 132.08 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 132.08 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 132.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "811f15d3-fdbe-4e7d-a6cb-3d74046ff929")
-		)
-		(instances
-			(project "mainboard"
-				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-12V")
-		(at 142.24 93.98 0)
+		(at 132.08 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2922,7 +2717,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6d4dc2d-a2b8-4c0f-891c-597a20ccfbf7")
 		(property "Reference" "#PWR03"
-			(at 142.24 97.79 0)
+			(at 132.08 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +2726,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 142.24 88.9 0)
+			(at 132.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +2734,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +2743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +2752,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 142.24 93.98 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,6 +2764,12 @@
 			(uuid "df7af9c3-84d2-4331-9b6b-505f7d7750ca")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "#PWR03")
@@ -2979,7 +2780,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 78.74 0)
+		(at 132.08 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2988,7 +2789,7 @@
 		(fields_autoplaced yes)
 		(uuid "c10a1b4f-8ebd-4c16-9cd3-3a5d25a2ec24")
 		(property "Reference" "#PWR01"
-			(at 142.24 85.09 0)
+			(at 132.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2997,7 +2798,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 83.82 0)
+			(at 132.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,7 +2806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 78.74 0)
+			(at 132.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +2815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 78.74 0)
+			(at 132.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +2824,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 78.74 0)
+			(at 132.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,6 +2836,12 @@
 			(uuid "8be1795d-f01e-41a1-8e22-fda437493f40")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "#PWR01")
@@ -3071,7 +2878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 116.84 86.36 0)
 			(effects
 				(font
@@ -3105,6 +2912,12 @@
 			(uuid "7ab189e9-03a3-4bc1-b265-fba5f33d2a6e")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "C4")
@@ -3139,7 +2952,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 91.44 63.5 90)
 			(effects
 				(font
@@ -3173,6 +2986,12 @@
 			(uuid "aa6e9859-dac1-4c7c-a159-f5c4d7f9dece")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "D1")
@@ -3183,7 +3002,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 142.24 63.5 0)
+		(at 132.08 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3192,7 +3011,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2b765aa-f74d-4586-8582-fb5734457766")
 		(property "Reference" "#PWR04"
-			(at 142.24 67.31 0)
+			(at 132.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3020,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 142.24 58.42 0)
+			(at 132.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 63.5 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 63.5 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3046,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 142.24 63.5 0)
+			(at 132.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,6 +3058,12 @@
 			(uuid "4c13a9af-bc78-43e8-9eb6-dce6d73971a0")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "#PWR04")
@@ -3305,6 +3130,12 @@
 			(uuid "8be1795d-f01e-41a1-8e22-fda437493f41")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "#PWR02")
@@ -3371,6 +3202,12 @@
 			(uuid "d016d1a0-bddc-4ccb-b136-6a53186bb5f0")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "#PWR07")
@@ -3405,7 +3242,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Latch6.5mm_Vertical"
 			(at 76.2 78.74 0)
 			(effects
 				(font
@@ -3463,6 +3300,12 @@
 			(uuid "d22054fa-885c-4c52-9699-a01e1155ebda")
 		)
 		(instances
+			(project "eurorack_power"
+				(path "/97e4ff62-539e-420c-85fc-0a9ec1ddb02f"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "J1")
@@ -3471,4 +3314,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

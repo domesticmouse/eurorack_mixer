@@ -15,3 +15,5 @@ two signal mixers, the ES x MKI mixer, and the AI Synthesis mixer.
 - [Moritz Klein](https://www.youtube.com/@MoritzKlein0)'s
   [Designing a 3-channel mixer with diode distortion from scratch](https://www.youtube.com/watch?v=q8tmUgaXrEQ)
 - [TL074 data sheet](https://www.ti.com/lit/ds/symlink/tl074.pdf)
+- [EuroRack dimensions](https://midisoft.de/EuroRackDimensions/EuroRack_Dimensions.html)
+- [Eurorack Panel Dimensions](https://www.exploding-shed.com/manuals-tutorials/manuals/standards-of-eurorack/eurorack-dimensions/)
