@@ -17,6 +17,11 @@ two signal mixers, the ES x MKI mixer, and the AI Synthesis mixer.
 | [C114696](https://www.lcsc.com/product-detail/C114696.html) | Nexperia BAT46WJ,115 | DIODE SCHOTTKY 100V SOD-323F |
 | [C19171391](https://www.lcsc.com/product-detail/C19171391.html) | YONGYUTAI YLED0805R | LED RED 0805 SMD |
 | [C82544](https://www.lcsc.com/product-detail/C82544.html) | DIODES 1N5819HW-7-F | 25A 1 Independent 40V 450mV@1A 1A SOD-123 Single Diodes |
+| [C573025](https://www.lcsc.com/product-detail/C573025.html) | Eurorack Power Connector | CONN IDC HEADER TH 10POS 2.54mm |
+| [C17513](https://www.lcsc.com/product-detail/C17513.html) | UNI-ROYAL 0805W8F1001T5E | RES 1kΩ ±1% 125mW 0805 |
+| [C149504](https://www.lcsc.com/product-detail/C149504.html) | UNI-ROYAL 0805W8F1003T5E | RES 100kΩ ±1% 125mW 0805 |
+| [C17593](https://www.lcsc.com/product-detail/C17593.html) | UNI-ROYAL 0805W8F2702T5E | RES 27kΩ ±1% 125mW 0805 |
+
 
 ## Sources
 
