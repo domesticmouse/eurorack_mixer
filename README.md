@@ -1,8 +1,8 @@
 # Eurorack Mixer
 
 This is a Eurorack module for mixing signals, using a
-[TL074](https://www.ti.com/product/TL074). It is based on a mix of
-two signal mixers, the ES x MKI mixer, and the AI Synthesis mixer.
+[TL074](https://www.ti.com/product/TL074).
+It is based on the ES x MKI mixer.
 
 **Note:** This is a learning exercise.
 
