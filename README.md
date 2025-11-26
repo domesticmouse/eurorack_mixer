@@ -6,6 +6,8 @@ It is based on the ES x MKI mixer.
 
 **Note:** This is a learning exercise.
 
+[KiCanvas rendering of the mainboard](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fdomesticmouse%2Feurorack_mixer%2Ftree%2Fmain%2Fhardware%2Fmainboard)
+
 ## Parts
 
 | LCSC Part | Name | Description |
