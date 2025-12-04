@@ -23,7 +23,7 @@ It is based on the ES x MKI mixer.
 | [C17513](https://www.lcsc.com/product-detail/C17513.html) | UNI-ROYAL 0805W8F1001T5E | RES 1kΩ ±1% 125mW 0805 |
 | [C149504](https://www.lcsc.com/product-detail/C149504.html) | UNI-ROYAL 0805W8F1003T5E | RES 100kΩ ±1% 125mW 0805 |
 | [C17593](https://www.lcsc.com/product-detail/C17593.html) | UNI-ROYAL 0805W8F2702T5E | RES 27kΩ ±1% 125mW 0805 |
-
+| [C17903](https://www.lcsc.com/product-detail/C17903.html) | UNI-ROYAL 1206W4F100JT5E | RES 10Ω ±1% 250mW 1206 |
 
 ## Sources
 

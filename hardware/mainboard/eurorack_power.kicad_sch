@@ -1567,17 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 54.61) (xy 72.39 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ecb958a-3d4d-4b52-8900-05361756c829")
-	)
-	(wire
-		(pts
-			(xy 83.82 102.87) (xy 83.82 106.68)
+			(xy 93.98 104.14) (xy 93.98 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1604,6 +1594,16 @@
 			(type default)
 		)
 		(uuid "3130eca1-3a91-4556-a080-759e6ffb4b75")
+	)
+	(wire
+		(pts
+			(xy 66.04 54.61) (xy 72.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e5b972-5415-40fa-a5e2-b408fc213eea")
 	)
 	(wire
 		(pts
@@ -1697,6 +1697,26 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 107.95) (xy 72.39 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac7f217-efbd-4c13-8701-3a6f2df889f9")
+	)
+	(wire
+		(pts
+			(xy 77.47 54.61) (xy 82.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5deea0ab-2b54-4c12-9a14-841da5c9fc6a")
+	)
+	(wire
+		(pts
 			(xy 185.42 88.9) (xy 185.42 91.44)
 		)
 		(stroke
@@ -1787,7 +1807,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 54.61) (xy 77.47 54.61)
+			(xy 93.98 54.61) (xy 87.63 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1807,7 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 52.07) (xy 83.82 54.61)
+			(xy 93.98 52.07) (xy 93.98 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1877,7 +1897,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 106.68) (xy 66.04 93.98)
+			(xy 66.04 107.95) (xy 66.04 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +1917,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 106.68) (xy 78.74 106.68)
+			(xy 93.98 107.95) (xy 88.9 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2007,16 +2027,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 106.68) (xy 66.04 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b02c51-812f-491f-b7f4-4aaf86d42f97")
-	)
-	(wire
-		(pts
 			(xy 66.04 54.61) (xy 66.04 63.5)
 		)
 		(stroke
@@ -2024,6 +2034,16 @@
 			(type default)
 		)
 		(uuid "e897644b-930a-4dca-90e9-362204ca23e8")
+	)
+	(wire
+		(pts
+			(xy 77.47 107.95) (xy 83.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f148272b-2680-40fe-8043-87d72da6e306")
 	)
 	(wire
 		(pts
@@ -2217,7 +2237,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 76.2 106.68 0)
+		(at 86.36 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2226,7 +2246,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fcd6502-c798-4332-9102-f1173bbbd0e6")
 		(property "Reference" "D2"
-			(at 75.946 100.33 0)
+			(at 86.106 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +2254,7 @@
 			)
 		)
 		(property "Value" "20V"
-			(at 75.946 102.87 0)
+			(at 86.106 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2262,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323F"
-			(at 76.2 106.68 90)
+			(at 86.36 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2271,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C114696.pdf"
-			(at 76.2 106.68 90)
+			(at 86.36 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2280,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 76.2 106.68 0)
+			(at 86.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2289,7 @@
 			)
 		)
 		(property "LCSC_Part_No" "C114696"
-			(at 76.2 106.68 0)
+			(at 86.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +2298,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 76.2 106.68 0)
+			(at 86.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2307,7 @@
 			)
 		)
 		(property "Manufacturer_Part_No" "BAT46WJ,115"
-			(at 76.2 106.68 0)
+			(at 86.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,7 +3106,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 74.93 54.61 180)
+		(at 85.09 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3095,7 +3115,7 @@
 		(fields_autoplaced yes)
 		(uuid "9321de1d-ee28-40b7-a176-d0e47d9427de")
 		(property "Reference" "D1"
-			(at 75.184 48.26 0)
+			(at 85.344 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +3123,7 @@
 			)
 		)
 		(property "Value" "20V"
-			(at 75.184 50.8 0)
+			(at 85.344 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3131,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323F"
-			(at 74.93 54.61 90)
+			(at 85.09 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3140,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C114696.pdf"
-			(at 74.93 54.61 90)
+			(at 85.09 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3149,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 74.93 54.61 0)
+			(at 85.09 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3158,7 @@
 			)
 		)
 		(property "LCSC_Part_No" "C114696"
-			(at 74.93 54.61 0)
+			(at 85.09 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3167,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 74.93 54.61 0)
+			(at 85.09 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3176,7 @@
 			)
 		)
 		(property "Manufacturer_Part_No" "BAT46WJ,115"
-			(at 74.93 54.61 0)
+			(at 85.09 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,6 +3194,74 @@
 			(project "mainboard"
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 74.93 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9de94176-ec22-4b08-9722-1c32a68b7748")
+		(property "Reference" "R14"
+			(at 74.93 49.53 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 74.93 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f3cc823-c279-4bae-9c18-3fe4ea86010d")
+		)
+		(pin "2"
+			(uuid "926e88b8-1c6b-4708-9761-177fa38edf28")
+		)
+		(instances
+			(project ""
+				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3325,7 +3413,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 83.82 102.87 0)
+		(at 93.98 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3334,7 +3422,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6d4dc2d-a2b8-4c0f-891c-597a20ccfbf7")
 		(property "Reference" "#PWR03"
-			(at 83.82 106.68 0)
+			(at 93.98 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3431,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 83.82 97.79 0)
+			(at 93.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,7 +3439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 102.87 0)
+			(at 93.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,7 +3448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 102.87 0)
+			(at 93.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,7 +3457,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 83.82 102.87 0)
+			(at 93.98 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,6 +3544,74 @@
 			(project "mainboard"
 				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 74.93 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d27b453b-32e7-4ebe-95ad-543dc5dccfa7")
+		(property "Reference" "R16"
+			(at 74.93 102.87 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 74.93 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 74.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 74.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f3cc823-c279-4bae-9c18-3fe4ea86010e")
+		)
+		(pin "2"
+			(uuid "926e88b8-1c6b-4708-9761-177fa38edf29")
+		)
+		(instances
+			(project ""
+				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118/3104daed-a7b8-44ea-ae2c-bc8126f96068"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3566,7 +3722,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 83.82 52.07 0)
+		(at 93.98 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3575,7 +3731,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2b765aa-f74d-4586-8582-fb5734457766")
 		(property "Reference" "#PWR04"
-			(at 83.82 55.88 0)
+			(at 93.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +3740,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 83.82 46.99 0)
+			(at 93.98 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 52.07 0)
+			(at 93.98 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +3757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 52.07 0)
+			(at 93.98 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,7 +3766,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 83.82 52.07 0)
+			(at 93.98 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
