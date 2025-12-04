@@ -78,7 +78,7 @@
 		)
 	)
 	(net 0 "")
-	(footprint "ModularMountingHoles:6mm_Jack"
+	(footprint "ModularMountingHoles:RK097_Vertical_Potentiometer"
 		(layer "F.Cu")
 		(uuid "0209c459-588f-4f37-ae74-f1962032cdba")
 		(at 65 125.37)
@@ -96,7 +96,7 @@
 				)
 			)
 		)
-		(property "Value" "6mm_Jack"
+		(property "Value" "RK097_Vertical_Potentiometer"
 			(at 0 7.35 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -135,14 +135,14 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 6.1 6.1)
-			(drill 6.1)
+			(size 7.4 7.4)
+			(drill 7.4)
 			(layers "*.Cu" "*.Mask")
-			(uuid "299ea5ea-5507-4307-9dff-4a35e3010726")
+			(uuid "fcb2348c-6f4e-4f4f-84f2-fcc81e56e66a")
 		)
 		(embedded_fonts no)
 	)
-	(footprint "ModularMountingHoles:6mm_Jack"
+	(footprint "ModularMountingHoles:RK097_Vertical_Potentiometer"
 		(layer "F.Cu")
 		(uuid "0275f451-dbaa-488b-a7e5-48d852bd8341")
 		(at 65 85.37)
@@ -160,7 +160,7 @@
 				)
 			)
 		)
-		(property "Value" "6mm_Jack"
+		(property "Value" "RK097_Vertical_Potentiometer"
 			(at 0 7.35 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -199,10 +199,10 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 6.1 6.1)
-			(drill 6.1)
+			(size 7.4 7.4)
+			(drill 7.4)
 			(layers "*.Cu" "*.Mask")
-			(uuid "6f03ae7e-79c3-479b-b727-164ae6da2974")
+			(uuid "1c99cc91-548c-4c22-a037-0638be7b6e7d")
 		)
 		(embedded_fonts no)
 	)
@@ -466,7 +466,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "ModularMountingHoles:6mm_Jack"
+	(footprint "ModularMountingHoles:RK097_Vertical_Potentiometer"
 		(layer "F.Cu")
 		(uuid "75e9cef3-bd0f-41cd-aacd-100789350ee9")
 		(at 65 105.37)
@@ -484,7 +484,7 @@
 				)
 			)
 		)
-		(property "Value" "6mm_Jack"
+		(property "Value" "RK097_Vertical_Potentiometer"
 			(at 0 7.35 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -523,10 +523,10 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 6.1 6.1)
-			(drill 6.1)
+			(size 7.4 7.4)
+			(drill 7.4)
 			(layers "*.Cu" "*.Mask")
-			(uuid "71a674a6-9b6d-4599-8722-992223015ebd")
+			(uuid "df1d7a53-266c-4d76-8b1d-814e4e2d9c76")
 		)
 		(embedded_fonts no)
 	)
@@ -940,7 +940,7 @@
 		(uuid "21f17a28-a78a-498a-b7c7-ae7fb4b02a16")
 	)
 	(gr_line
-		(start 68.5 125.37)
+		(start 69 125.37)
 		(end 73.4 125.37)
 		(stroke
 			(width 0.3)
@@ -972,7 +972,7 @@
 	)
 	(gr_line
 		(start 56.6 85.37)
-		(end 61.5 85.37)
+		(end 61 85.37)
 		(stroke
 			(width 0.3)
 			(type solid)
@@ -1034,7 +1034,7 @@
 		(uuid "a867aa75-a44e-4ee0-8fb5-91c63d4db7fb")
 	)
 	(gr_line
-		(start 68.5 105.37)
+		(start 69 105.37)
 		(end 72.6 105.37)
 		(stroke
 			(width 0.3)
@@ -1969,7 +1969,7 @@
 		(uuid "47b7f65e-206d-4600-9187-74f665308c55")
 	)
 	(segment
-		(start 61.5 85.37)
+		(start 61 85.37)
 		(end 56.6 85.37)
 		(width 0.3)
 		(layer "F.Cu")
@@ -1978,7 +1978,7 @@
 	)
 	(segment
 		(start 72.6 105.37)
-		(end 68.5 105.37)
+		(end 69 105.37)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 0)
@@ -2017,7 +2017,7 @@
 		(uuid "eb97fd71-0d0e-4482-897f-4aa5077549aa")
 	)
 	(segment
-		(start 68.5 125.37)
+		(start 69 125.37)
 		(end 73.4 125.37)
 		(width 0.3)
 		(layer "F.Cu")
