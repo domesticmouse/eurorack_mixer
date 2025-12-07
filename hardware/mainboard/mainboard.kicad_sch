@@ -2465,6 +2465,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 180.34) (xy 50.8 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7d5f39-f3a3-4fcd-a4f8-514c8ceae35d")
+	)
+	(wire
+		(pts
 			(xy 73.66 60.96) (xy 73.66 63.5)
 		)
 		(stroke
@@ -4012,6 +4022,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 50.8 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e0d5ce8-20e9-41ae-969d-2f52ced34974")
+		(property "Reference" "#FLG03"
+			(at 50.8 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 50.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a7283f7-df30-4d0a-8eff-092919351785")
+		)
+		(instances
+			(project ""
+				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 129.54 153.67 0)
 		(unit 1)
@@ -4272,12 +4348,12 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_Small")
 		(at 73.66 66.04 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "256f001a-7ab9-412a-9eb0-f18cd57f9df0")
 		(property "Reference" "RV2"
 			(at 71.12 64.7699 0)
@@ -6407,6 +6483,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 50.8 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d4f69d3-8db3-40fb-9684-c4d57aaa9eff")
+		(property "Reference" "#PWR032"
+			(at 50.8 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "462267a3-428e-4ca0-adb8-d67f9affadbd")
+		)
+		(instances
+			(project ""
+				(path "/fbd7df8d-6163-4a0b-a1e8-4fc30445a118"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 187.96 132.08 0)
 		(unit 1)
@@ -7225,12 +7367,12 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_Small")
 		(at 73.66 88.9 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b9d2d63d-1873-4216-aa63-6c4062a4cece")
 		(property "Reference" "RV3"
 			(at 71.12 87.6299 0)
@@ -8360,12 +8502,12 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_Small")
 		(at 73.66 45.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f6fd7147-ac5b-4d58-93e9-338397495b93")
 		(property "Reference" "RV1"
 			(at 71.12 44.4499 0)

@@ -2261,7 +2261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "EurorackFootprints:D_SOD-323F"
 			(at 86.36 107.95 90)
 			(effects
 				(font
@@ -3130,7 +3130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "EurorackFootprints:D_SOD-323F"
 			(at 85.09 54.61 90)
 			(effects
 				(font
