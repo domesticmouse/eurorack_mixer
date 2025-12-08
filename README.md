@@ -37,3 +37,4 @@ It is based on the ES x MKI mixer.
 - [EuroRack dimensions](https://midisoft.de/EuroRackDimensions/EuroRack_Dimensions.html)
 - [Eurorack Panel Dimensions](https://www.exploding-shed.com/manuals-tutorials/manuals/standards-of-eurorack/eurorack-dimensions/)
 - [Doepfer A100 DIY](https://doepfer.de/DIY/a100_diy.htm)
+- [benjiaomodular](https://benjiaomodular.com/)'s [MiniAttenuMix](https://benjiaomodular.com/post/2023-11-08-miniattenumix/)
