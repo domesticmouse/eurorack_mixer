@@ -5160,6 +5160,44 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
+		(uuid "c8d36d3e-fcc6-4ffd-badf-3f31e652325c")
+		(pts
+			(xy 64 69) (xy 64 134)
+		)
+		(height -20)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "65"
+			(at 42.85 101.5 90)
+			(layer "Dwgs.User")
+			(uuid "c8d36d3e-fcc6-4ffd-badf-3f31e652325c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "db779f6f-e599-4db3-9001-efb5d18097ba")
 		(pts
 			(xy 64 76.12) (xy 64 96.12)
@@ -5187,44 +5225,6 @@
 			(at 80.35 86.12 90)
 			(layer "Dwgs.User")
 			(uuid "db779f6f-e599-4db3-9001-efb5d18097ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "ec057db1-7913-47f4-af6b-3da84800b6e3")
-		(pts
-			(xy 64 67.025) (xy 64 132.025)
-		)
-		(height -19)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "65"
-			(at 43.85 99.525 90)
-			(layer "Dwgs.User")
-			(uuid "ec057db1-7913-47f4-af6b-3da84800b6e3")
 			(effects
 				(font
 					(size 1 1)
@@ -5305,6 +5305,14 @@
 		(uuid "14483c1b-841a-44bf-91d4-bff0843f3a33")
 	)
 	(via
+		(at 69.08 131.48)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 2)
+		(uuid "1a9f874c-7d48-45db-ad5a-e100dc3bc558")
+	)
+	(via
 		(at 62.1 113.02)
 		(size 0.6)
 		(drill 0.3)
@@ -5330,6 +5338,14 @@
 		(free yes)
 		(net 2)
 		(uuid "66ed29b1-9296-4bf8-a26d-a8f6072743d5")
+	)
+	(via
+		(at 69.08 66.48)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 2)
+		(uuid "ad45ce49-a1c6-4c5d-8b5b-756e988b943d")
 	)
 	(via
 		(at 57.68 122.37)
