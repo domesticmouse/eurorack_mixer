@@ -16,7 +16,7 @@ It is based on the ES x MKI mixer.
 | [C12594](https://www.lcsc.com/product-detail/C12594.html) | TI TL074CDR | LOW-NOISE JFET-INPUT OPERATIONAL AMPLIFIERS |
 | [C311666](https://www.lcsc.com/product-detail/C311666.html) | Lelon OVK470M1ETR-0606 | CAP ALUM POLY 47uF ±20% 25V SMD |
 | [C49678](https://www.lcsc.com/product-detail/C49678.html) | YAGEO CC0805KRX7R9BB104 | CAP CER 100nF 50V X7R 0805 |
-| [C114696](https://www.lcsc.com/product-detail/C114696.html) | Nexperia BAT46WJ,115 | DIODE SCHOTTKY 100V SOD-323F |
+| [C64982](https://www.lcsc.com/product-detail/C64982.html) | MDD(Microdiode Semiconductor) B340A | DIODE SCHOTTKY 40V SMA(DO-214AC) |
 | [C19171391](https://www.lcsc.com/product-detail/C19171391.html) | YONGYUTAI YLED0805R | LED RED 0805 SMD |
 | [C82544](https://www.lcsc.com/product-detail/C82544.html) | DIODES 1N5819HW-7-F | 25A 1 Independent 40V 450mV@1A 1A SOD-123 Single Diodes |
 | [C573025](https://www.lcsc.com/product-detail/C573025.html) | Eurorack Power Connector | CONN IDC HEADER TH 10POS 2.54mm |
